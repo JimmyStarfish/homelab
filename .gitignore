@@ -1,7 +1,26 @@
 # Ignore local development files
-**/.vscode
-**/.DS_Store
+.vscode/**
+.obsidian
+.obsidian/**
+.DS_Store
 
 # Docker Secrets, Environment Files
 **/secret.*
 **/.env
+**/.envrc
+
+**/.terraform
+**/.terraform.lock.hcl
+**/.terraform.tfstate.*
+**/terraform.tfstate
+**/terraform.tfstate.backup
+**/*.auto.tfvars
+
+**/*.auto.pkrvars.hcl
+packer-*.log
+packer_cache/
+*.iso
+*.box
+*.ova
+
+**/helm-credentials.yaml
